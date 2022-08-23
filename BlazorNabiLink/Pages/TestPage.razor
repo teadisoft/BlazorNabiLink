@@ -1,0 +1,10 @@
+﻿@page "/testPage/{NaviLink}"
+
+<h3>TestPage</h3>
+
+@NaviLink
+
+@code {
+    [Parameter]
+    public string NaviLink { get; set; }
+}
